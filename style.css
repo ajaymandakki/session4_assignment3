@@ -1,1 +1,14 @@
-
+p{
+	text-align: center;
+}
+div{
+	margin: auto;
+	background-color: green;
+    width: 100px;
+    padding: 10px;
+}
+div:hover{
+	background-color: orange;
+    border-radius: 50%;
+    transition: all 3s;
+}
